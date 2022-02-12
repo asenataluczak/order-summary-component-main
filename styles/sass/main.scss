@@ -1,10 +1,11 @@
-// Abstracts
+// Utilities
 @import 'utilities/variables';
 @import 'utilities/utilities';
 
 // Base 
 @import 'base/reset';
 @import 'base/base';
+@import 'base/global-classes';
 
 // Layout
 @import 'layout/spacing';

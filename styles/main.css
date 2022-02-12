@@ -157,6 +157,14 @@ h1 {
   font-weight: 900;
 }
 
+.bold {
+  font-weight: 900;
+}
+
+.mt-auto {
+  margin-top: auto;
+}
+
 .mt-s {
   margin-top: 12px;
 }
@@ -167,6 +175,10 @@ h1 {
 
 .mt-l {
   margin-top: 32px;
+}
+
+.mb-auto {
+  margin-bottom: auto;
 }
 
 .mb-s {
@@ -181,6 +193,10 @@ h1 {
   margin-bottom: 32px;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .ml-s {
   margin-left: 12px;
 }
@@ -191,6 +207,10 @@ h1 {
 
 .ml-l {
   margin-left: 32px;
+}
+
+.mr-auto {
+  margin-right: auto;
 }
 
 .mr-s {
@@ -205,6 +225,10 @@ h1 {
   margin-right: 32px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 .m-s {
   margin: 12px;
 }
@@ -215,6 +239,11 @@ h1 {
 
 .m-l {
   margin: 32px;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .my-s {
@@ -230,6 +259,11 @@ h1 {
 .my-l {
   margin-top: 32px;
   margin-bottom: 32px;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mx-s {
@@ -300,21 +334,18 @@ h1 {
 }
 
 .card__description {
-  line-height: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .card__illustration {
   width: 100%;
 }
 
-.card__plan-tile {
+.card__tile {
   background: #f5f7ff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -322,7 +353,12 @@ h1 {
   border-radius: 15px;
 }
 
-.button__proceed, .button__cancel {
+.card__pricing {
+  text-align: left;
+  line-height: 1.8rem;
+}
+
+.button--proceed, .button--cancel {
   background: #3829e0;
   height: 60px;
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
@@ -334,33 +370,33 @@ h1 {
   cursor: pointer;
 }
 
-.button__proceed {
+.button--proceed {
   background: #3829e0;
   color: #ffffff;
   -webkit-box-shadow: 0px 20px 30px 5px #e0e8ff;
           box-shadow: 0px 20px 30px 5px #e0e8ff;
 }
 
-.button__proceed:hover {
+.button--proceed:hover {
   background: #2718d0;
 }
 
-.button__proceed:active {
+.button--proceed:active {
   background: #ffffff;
   border: 2px #3829e0 solid;
   color: #3829e0;
 }
 
-.button__cancel {
+.button--cancel {
   background: transparent;
   color: #7280a7;
 }
 
-.button__cancel:hover {
+.button--cancel:hover {
   background: #f5f7ff;
 }
 
-.button__cancel:active {
+.button--cancel:active {
   background: #ffffff;
   border: 2px #7280a7 solid;
 }

@@ -1,5 +1,12 @@
 // Mixins
 @mixin generate-spacing-classes($class, $property, $second-property: false) {
+  .#{$class}-auto {
+    #{$property}: auto;
+    @if $second-property {
+      #{$second-property}: auto;
+    }
+  }
+
   .#{$class}-s {
     #{$property}: $base-spacing-token * 3;
     @if $second-property {
@@ -24,5 +31,5 @@
 
 // Functions
 @function generate-background-url($screen) {
-  @return url("/images/pattern-background-#{$screen}.svg")
+  @return url("/images/pattern-background-#{$screen}.svg");
 }

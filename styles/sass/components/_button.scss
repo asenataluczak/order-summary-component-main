@@ -11,7 +11,7 @@
 }
 
 .button {
-  &__proceed {
+  &--proceed {
     @extend %button-base;
     background: $primary-blue;
     color: $primary-white;
@@ -28,7 +28,7 @@
     }
   }
 
-  &__cancel {
+  &--cancel {
     @extend %button-base;
     background: transparent;
     color: $desaturated-blue;
