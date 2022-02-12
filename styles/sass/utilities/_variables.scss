@@ -1,0 +1,22 @@
+// colors
+$primary-blue: #3829e0;
+$darker-blue: #2718d0;
+$primary-white: #ffffff;
+
+$background-blue: #e0e8ff;
+$very-pale-blue: #f5f7ff;
+$dark-blue: #1f2f56;
+$desaturated-blue: #7280a7;
+
+
+$base-spacing-token: 4px;
+
+// font settings
+$font-stack: "Red Hat Display", Arial, Helvetica, sans-serif;
+$font-regular-size: $base-spacing-token * 4;
+$font-big-size: $base-spacing-token * 6;
+$font-smaller-size: $base-spacing-token * 3;
+
+// radius
+$regular-radius: 15px;
+$big-radius: $regular-radius * 2;

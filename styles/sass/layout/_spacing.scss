@@ -1,0 +1,8 @@
+// Margin
+@include generate-spacing-classes('mt', 'margin-top');
+@include generate-spacing-classes('mb', 'margin-bottom');
+@include generate-spacing-classes('ml', 'margin-left');
+@include generate-spacing-classes('mr', 'margin-right');
+@include generate-spacing-classes('m', 'margin');
+@include generate-spacing-classes('my', 'margin-top', 'margin-bottom');
+@include generate-spacing-classes('mx', 'margin-left', 'margin-right');

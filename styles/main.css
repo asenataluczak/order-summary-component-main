@@ -1,0 +1,366 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  color: #7280a7;
+  background: #e0e8ff url("/images/pattern-background-mobile.svg") no-repeat;
+  background-size: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.mt-s {
+  margin-top: 12px;
+}
+
+.mt-m {
+  margin-top: 24px;
+}
+
+.mt-l {
+  margin-top: 32px;
+}
+
+.mb-s {
+  margin-bottom: 12px;
+}
+
+.mb-m {
+  margin-bottom: 24px;
+}
+
+.mb-l {
+  margin-bottom: 32px;
+}
+
+.ml-s {
+  margin-left: 12px;
+}
+
+.ml-m {
+  margin-left: 24px;
+}
+
+.ml-l {
+  margin-left: 32px;
+}
+
+.mr-s {
+  margin-right: 12px;
+}
+
+.mr-m {
+  margin-right: 24px;
+}
+
+.mr-l {
+  margin-right: 32px;
+}
+
+.m-s {
+  margin: 12px;
+}
+
+.m-m {
+  margin: 24px;
+}
+
+.m-l {
+  margin: 32px;
+}
+
+.my-s {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.my-m {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.my-l {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.mx-s {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.mx-m {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.mx-l {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background: #e0e8ff url("/images/pattern-background-desktop.svg") no-repeat;
+    background-size: 100%;
+  }
+}
+
+.attribution {
+  /* fixed positioning in the bottom */
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  font-size: 12px;
+  text-align: center;
+  background-color: #f5f7ff;
+  padding: 5px 0;
+}
+
+.attribution__link {
+  color: #3829e0;
+}
+
+.card {
+  width: 450px;
+  max-width: 90%;
+  background: #fff;
+  border-radius: 30px;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.card__content {
+  padding: 0 10%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.card__title {
+  color: #1f2f56;
+}
+
+.card__description {
+  line-height: 1.3rem;
+}
+
+.card__illustration {
+  width: 100%;
+}
+
+.card__plan-tile {
+  background: #f5f7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 7%;
+  border-radius: 15px;
+}
+
+.button__proceed, .button__cancel {
+  background: #3829e0;
+  height: 60px;
+  font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button__proceed {
+  background: #3829e0;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 20px 30px 5px #e0e8ff;
+          box-shadow: 0px 20px 30px 5px #e0e8ff;
+}
+
+.button__proceed:hover {
+  background: #2718d0;
+}
+
+.button__proceed:active {
+  background: #ffffff;
+  border: 2px #3829e0 solid;
+  color: #3829e0;
+}
+
+.button__cancel {
+  background: transparent;
+  color: #7280a7;
+}
+
+.button__cancel:hover {
+  background: #f5f7ff;
+}
+
+.button__cancel:active {
+  background: #ffffff;
+  border: 2px #7280a7 solid;
+}
