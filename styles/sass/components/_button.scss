@@ -1,9 +1,8 @@
 %button-base {
-  background: $primary-blue;
   height: 60px;
   font-family: $font-stack;
   font-size: $font-regular-size;
-  font-weight: 700;
+  font-weight: $font-bold-weight;
   color: $primary-white;
   border: 0;
   border-radius: $regular-radius;
@@ -15,10 +14,10 @@
     @extend %button-base;
     background: $primary-blue;
     color: $primary-white;
-    box-shadow: 0px 20px 30px 5px $background-blue;
+    box-shadow: 0px 20px 30px 5px $lighter-blue-40;
 
     &:hover {
-      background: $darker-blue;
+      background: $primary-blue-hover;
     }
 
     &:active {
@@ -31,15 +30,15 @@
   &--cancel {
     @extend %button-base;
     background: transparent;
-    color: $desaturated-blue;
+    color: $lighter-blue-60;
 
     &:hover {
-      background: $very-pale-blue;
+      background: $lighter-blue-20;
     }
 
     &:active {
       background: $primary-white;
-      border: 2px $desaturated-blue solid;
+      border: 2px $lighter-blue-60 solid;
     }
   }
 }

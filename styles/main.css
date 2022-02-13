@@ -139,10 +139,10 @@ body {
   color: #7280a7;
   background: #e0e8ff url("/images/pattern-background-mobile.svg") no-repeat;
   background-size: 100%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
   min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -289,7 +289,6 @@ h1 {
 }
 
 .attribution {
-  /* fixed positioning in the bottom */
   position: fixed;
   left: 0;
   bottom: 0;
@@ -307,7 +306,7 @@ h1 {
 .card {
   width: 450px;
   max-width: 90%;
-  background: #fff;
+  background: #ffffff;
   border-radius: 30px;
   overflow: hidden;
   -webkit-box-sizing: border-box;
@@ -324,9 +323,6 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
 }
 
 .card__title {
@@ -359,7 +355,6 @@ h1 {
 }
 
 .button--proceed, .button--cancel {
-  background: #3829e0;
   height: 60px;
   font-family: "Red Hat Display", Arial, Helvetica, sans-serif;
   font-size: 16px;

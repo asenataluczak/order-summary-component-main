@@ -1,22 +1,25 @@
 // colors
 $primary-blue: #3829e0;
-$darker-blue: #2718d0;
+$primary-blue-hover: #2718d0;
+$darker-blue: #1f2f56;
+$lighter-blue-60: #7280a7;
+$lighter-blue-40: #e0e8ff;
+$lighter-blue-20: #f5f7ff;
 $primary-white: #ffffff;
 
-$background-blue: #e0e8ff;
-$very-pale-blue: #f5f7ff;
-$dark-blue: #1f2f56;
-$desaturated-blue: #7280a7;
-
-
+// spacing
 $base-spacing-token: 4px;
 
-// font settings
+// font
 $font-stack: "Red Hat Display", Arial, Helvetica, sans-serif;
 $font-regular-size: $base-spacing-token * 4;
 $font-big-size: $base-spacing-token * 6;
 $font-smaller-size: $base-spacing-token * 3;
+$font-regular-weight: 500;
+$font-bold-weight: 700;
+$font-bolder-weight: 900;
 
 // radius
 $regular-radius: 15px;
 $big-radius: $regular-radius * 2;
+

@@ -1,11 +1,11 @@
 body {
   font-size: $font-regular-size;
   font-family: $font-stack;
-  color: $desaturated-blue;
-  background: $background-blue generate-background-url("mobile") no-repeat;
+  color: $lighter-blue-60;
+  background: $lighter-blue-40 generate-background-url("mobile") no-repeat;
   background-size: 100%;
-  display: flex;
   width: 100%;
+  display: flex;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
@@ -13,5 +13,5 @@ body {
 
 h1 {
   font-size: $font-big-size;
-  font-weight: 900;
+  font-weight: $font-bolder-weight;
 }
