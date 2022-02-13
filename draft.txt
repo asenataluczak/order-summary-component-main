@@ -1,0 +1,20 @@
+// _variables.scss
+$primary-blue: #3829e0;
+$primary-blue-hover: #2718d0;
+$darker-blue: #1f2f56;
+$lighter-blue-60: #7280a7;
+$lighter-blue-40: #e0e8ff;
+$lighter-blue-20: #f5f7ff;
+$primary-white: #ffffff;
+
+// .vscode/settings.json
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/styles"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false
+}
