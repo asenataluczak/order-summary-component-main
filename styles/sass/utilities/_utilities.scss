@@ -31,5 +31,5 @@
 
 // Functions
 @function generate-background-url($screen) {
-  @return url("/images/pattern-background-#{$screen}.svg");
+  @return url("./../images/pattern-background-#{$screen}.svg");
 }
