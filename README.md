@@ -16,11 +16,11 @@ Users should be able to:
 
 ### Links
 
-(Add link to Github Pages)
+- Live Site URL: [Github Pages](https://asenataluczak.github.io/order-summary-component-main/)
 
 ### Screenshot
 
-(Add a screenshot when the project is done).
+![](./images/screenshot.jpg)
 
 ### Used concepts
 
