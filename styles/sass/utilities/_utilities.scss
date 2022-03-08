@@ -1,0 +1,35 @@
+// Mixins
+@mixin generate-spacing-classes($class, $property, $second-property: false) {
+  .#{$class}-auto {
+    #{$property}: auto;
+    @if $second-property {
+      #{$second-property}: auto;
+    }
+  }
+
+  .#{$class}-s {
+    #{$property}: $base-spacing-token * 3;
+    @if $second-property {
+      #{$second-property}: $base-spacing-token * 3;
+    }
+  }
+
+  .#{$class}-m {
+    #{$property}: $base-spacing-token * 6;
+    @if $second-property {
+      #{$second-property}: $base-spacing-token * 6;
+    }
+  }
+
+  .#{$class}-l {
+    #{$property}: $base-spacing-token * 8;
+    @if $second-property {
+      #{$second-property}: $base-spacing-token * 8;
+    }
+  }
+}
+
+// Functions
+@function generate-background-url($screen) {
+  @return url("./../images/pattern-background-#{$screen}.svg");
+}

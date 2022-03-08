@@ -1,0 +1,15 @@
+.attribution {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  width: 100vw;
+  font-size: $font-smaller-size;
+  text-align: center;
+  background-color: $lighter-blue-20;
+  padding: 5px 0;
+
+  &__link {
+    color: $primary-blue;
+  }
+}

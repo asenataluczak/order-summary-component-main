@@ -1,0 +1,44 @@
+%button-base {
+  height: 60px;
+  font-family: $font-stack;
+  font-size: $font-regular-size;
+  font-weight: $font-bold-weight;
+  color: $primary-white;
+  border: 0;
+  border-radius: $regular-radius;
+  cursor: pointer;
+}
+
+.button {
+  &--proceed {
+    @extend %button-base;
+    background: $primary-blue;
+    color: $primary-white;
+    box-shadow: 0px 20px 30px 5px $lighter-blue-40;
+
+    &:hover {
+      background: $primary-blue-hover;
+    }
+
+    &:active {
+      background: $primary-white;
+      border: 2px $primary-blue solid;
+      color: $primary-blue;
+    }
+  }
+
+  &--cancel {
+    @extend %button-base;
+    background: transparent;
+    color: $lighter-blue-60;
+
+    &:hover {
+      background: $lighter-blue-20;
+    }
+
+    &:active {
+      background: $primary-white;
+      border: 2px $lighter-blue-60 solid;
+    }
+  }
+}

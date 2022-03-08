@@ -1,0 +1,6 @@
+@media screen and (min-width: 1200px) {
+  body {
+    background: $lighter-blue-40 generate-background-url("desktop") no-repeat;
+    background-size: 100%;
+  }
+}

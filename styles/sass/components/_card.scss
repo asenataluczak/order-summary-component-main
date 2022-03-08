@@ -1,0 +1,40 @@
+.card {
+  width: 450px;
+  max-width: 90%;
+  background: $primary-white;
+  border-radius: $big-radius;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  &__content {
+    padding: 0 10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__title {
+    color: $darker-blue;
+  }
+
+  &__description {
+    line-height: 1.8rem;
+  }
+
+  &__illustration {
+    width: 100%;
+  }
+
+  &__tile {
+    background: $lighter-blue-20;
+    display: flex;
+    align-items: center;
+    padding: 7%;
+    border-radius: $regular-radius;
+  }
+
+  &__pricing {
+    text-align: left;
+    line-height: 1.8rem;
+  }
+}
